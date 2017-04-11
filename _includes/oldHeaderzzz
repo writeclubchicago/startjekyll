@@ -1,0 +1,147 @@
+<header>
+  <header class="header">
+           <img src="Images/CFSlogo_tag.jpg"/>
+            <h1>Chicago Friends School</h1>
+    <h2>nuturing character, cultivating intellectual curiousity</h2>
+      
+<br/> 
+<body>        
+<div class="container"> 
+  <header class="header" style="margin-bottom:10px;">
+           <img src="Images/CFSlogo_tag.jpg"/>
+            <h1>Chicago Friends School</h1>
+    <h2>nuturing character, cultivating intellectual curiousity</h2>
+      </header>
+<br/>
+      
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-left"> 
+    
+
+            
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="glyphicon glyphicon-cog"></span>About<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">About | Why A Quaker School</a></li>
+<li><a href="#">About | History</a></li>
+<li><a href="#">About | Mission & Philosophy</a></li>
+<li><a href="#">About | Living Our Values</a></li>
+<li><a href="#">About | Staff</a></li>
+<li><a href="#">About | Board</a></li>
+<li class="divider"></li>
+<li><a href="#">About | Divider Above for Jeff Reference</a></li>
+</ul>
+</li>
+              
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+<span class="glyphicon glyphicon-cog"></span> Program | Curriculum<span class="caret"></span></a>                
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">Program | Curriculum K-2</a></li>
+<li><a href="#">Program | Curriculum 3-5</a></li>
+<li><a href="#">Program | Curriculum 6-8</a></li>
+<li><a href="#">Program | Before / After Care</a></li>
+<li class="divider"></li>
+<li><a href="#">Program | Divider Above for Jeff Reference</a></li>  
+</ul>
+</li>                            
+    
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon-cog"></span> Admissions<span class="caret"></span></a>                
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">Admissions | Learn More/Schedule a tour</a></li>
+<li><a href="#">Admissions | Admissions</a></li>
+<li><a href="#">Admissions | Tuition & Financial Aid</a></li>
+<li><a href="#">Admissions | Diversity and Inclusion</a></li>
+<li class="divider"></li>
+<li><a href="#">Admissions | Divider Above for Jeff Reference</a></li>  
+</ul>
+</li>                
+              
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon-cog"></span> Community<span class="caret"></span></a>                
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">Community | Parent’s Portal (Direct To Shutterfly)</a></li>
+<li><a href="#">Community | Blog (From Teachers’ posts on Shutterfly, newsletter, parent & head blogs TBD)</a></li>
+<li><a href="#">Community | Calendar</a></li>
+<li><a href="#">Community | Community Partners</a></li>
+<li class="divider"></li>
+<li><a href="#">Community | Divider Above for Jeff Reference</a></li>  
+</ul>
+</li>                
+              
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon-cog"></span> Get Involved<span class="caret"></span></a>                
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">Get Involved |Volunteer</a></li>
+<li><a href="#">Get Involved | Employment</a></li>
+<li class="divider"></li>
+<li><a href="#">Get Involved | Divider Above for Jeff Reference</a></li>  
+</ul>
+</li>  
+
+
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon-cog"></span> Donate<span class="caret"></span></a>                
+<ul class="dropdown-menu" role="menu">
+<li><a href="#">Donate |Donate Now</a></li>
+<li><a href="#">Donate | Recurring Gifts</a></li>
+<li><a href="#">Donate | Planned Giving</a></li>
+<li class="divider"></li>
+<li><a href="#">Donate | Divider Above for Jeff Reference</a></li>  
+</ul>
+              
+    </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+<!--   </header>-->
+    
+    
+    
+
+    
+    
+    
+    <div>
+    <h6>Below is older stuff </h6>
+    
+    </div> 
+    
+    
+
+         </nav>
+ 
+<footer>
+    <h2>Chicago Friends School <br/>
+    1246 W. Thorndale<br/> 
+    Chicago, IL 60660<br/>
+    (773) 442-2371</h2>
+ 
+    <br/> 
+    &copy; Chicago Friends School <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>
+    </footer>
+    
+ 
+
+
+</body> 

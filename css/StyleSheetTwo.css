@@ -1,0 +1,40 @@
+/*
+Jeff's CSS to override StyleSheet1.css
+*/
+/**************** Main Structure ****************/
+body {
+/* background-color: whitesmoke; */
+}
+
+.header img {
+  float: left;
+/*
+  width: 50%;
+  height: 50%;
+  background: #555;
+*/
+    height: 150px;
+    width: 265px;    
+    
+}
+
+.header h1, h2 {
+  position: relative;
+}
+/*  top: 18px;
+  left: 10px;*/
+
+
+.header h1 {
+ font-size: 36px; 
+}
+
+/*.header h1, h2{
+   top: 0px;
+  left: 0px;
+}*/
+
+
+.hereJeff {
+  background-color: purple;
+}

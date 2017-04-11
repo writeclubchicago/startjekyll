@@ -1,0 +1,312 @@
+/* StyleSheet1.css
+Theme Name: Chicago Friends School
+Theme URI: http://knowledgetown.com/
+Description: A theme created for the Chicago Friends School by Knowledge Town, LLC.
+Version: 1.0
+Author: Larry Clarkberg
+Author URI: http://knowledgetown.com/
+Tags: school, Quaker
+*/
+
+
+
+/**************** Main Structure ****************/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Times, serif;
+    background: white;
+}
+
+#page_centered {
+    width: 835px;
+    margin: 40px auto 0;
+}
+
+#header_left {
+    height: 150px;
+    width: 265px;
+    float: left;
+    /*background: url(images/logo.gif);*/
+/*    background: url(../../uploads/CFSlogo_tag.jpg) -20px -40px;*/
+      background: url(../Images/CFSlogo_tag.jpg) -20px -40px;
+}
+
+/* The following style shows a background image if the random image or slideshow don't work because javascript is disabled. */
+#header_right {
+    height: 150px;
+    width: 415px;
+    float: left;
+    background:  #fff url(images/slide0.gif);
+}
+
+/* The following style removes the background banner to prevent flicker in IE6. */
+#header_right_nobg {
+    height: 150px;
+    width: 415px;
+    float: left;
+    background:  #fff;
+}
+ 
+#content_wrapper {
+    width: 680px;
+    float: left;
+}
+
+#sidebar_right {
+    width: 150px;
+    height: 495px;
+    float: left;
+    background: url(images/sidebar_banner.gif) top no-repeat;
+    display: inline;
+}
+
+#nav_primary {
+}
+
+#nav_secondary {
+}
+
+#nav_utility {
+    margin-top: 60px;
+}
+
+#sidebar_left {
+    width: 140px;
+    float: left;
+    padding-right: 20px;
+    display: inline;
+}
+
+#content {
+    width: 500px;
+    float: left;
+    display: inline;
+}
+
+#footer {
+}
+
+.clearness {
+    clear: both;
+}
+
+/**************** End Main Structure ****************/
+
+ 
+
+/**************** Common Elements ****************/
+
+p, td {
+    font: 14px/20px Georgia;
+    color: #6f6f6f;
+    margin-top: 0;
+}
+
+h1 {
+    font: bold 18px/24px Georgia;
+    margin: 0;
+    color: #736357;
+}
+
+h1 a {
+    font: bold 18px/24px Georgia;
+    margin: 0;
+    border-bottom: none;
+}
+
+h2 {
+    font: italic 14px/20px Georgia;
+    margin-bottom: 0;
+    color: #2d2118;
+}
+
+h2 a {
+    font: italic 14px/20px Georgia;
+    margin-bottom: 0;
+}
+
+h2 a:hover {
+}
+
+h3 {
+    font: italic 14px/20px Georgia;
+    color: #736357;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+h5 {
+}
+
+a {
+    color: #9c5e33;
+    text-decoration: none;
+    border-bottom: 1px dotted #cb995d;
+}   
+
+a:hover {
+    color: #ea8c3e;
+}
+
+td {
+    vertical-align: top;
+    margin-top: 0;
+    padding-right: 60px;
+}
+
+.caption {
+    font: 10px/12px Arial;
+    color: #6f6f6f;
+    margin-bottom: 10px;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+
+/**************** On the Home Page ****************/
+
+
+
+/**************** In the Header ****************/
+
+
+
+/**************** In the Left Sidebar ****************/
+
+#nav_primary ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#nav_primary li {
+    margin-bottom: 10px;
+}
+
+#nav_primary .page_item a {
+    font: 18px/18px Georgia;
+    color: #a18572;
+    border-bottom: none;
+}
+
+#nav_primary .page_item a:hover {
+    color: #ea8c3e;
+}
+
+#nav_primary .current_page_item a, #nav_primary .current_page_ancestor a {
+    color: #ea8c3e;
+}
+
+#nav_secondary ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#nav_secondary p {
+    margin: 25px 0;
+    text-align: right;
+}
+
+#nav_secondary li {
+    margin-bottom: 10px;
+}
+
+#nav_secondary .page_item a {
+    font: 12px/12px Georgia;
+    border-bottom: none;
+}
+
+#nav_secondary .page_item a:hover {
+    color: #ea8c3e;
+}
+
+#nav_secondary .current_page_item a, #nav_secondary .current_page_ancestor a {
+    color: #ea8c3e;
+}
+
+#nav_utility a, #nav_utility p, .widgettitle, .textwidget {
+    font: 10px/12px Arial;
+    color: #6f6f6f;
+    margin: 0;
+    text-align: right;
+    border-bottom: none;
+}
+
+.widgettitle {
+    font-weight: bold;
+}
+
+#nav_utility  a:hover {
+    color: #ea8c3e;
+    border-bottom: none;
+}
+
+
+
+/**************** In the Content ****************/
+
+#cformsform {
+    margin-top: 40px;
+}
+
+.gallery-icon a {
+    border: none;
+}
+
+#shadowbox_nav a {
+    border: none;
+}
+
+#content .entry p {
+    margin: 0 0 15px 0;
+}
+
+.blog_title {
+    font: 24px/36px Georgia;
+    margin-bottom: 30px;
+    color: #736357;
+}
+
+.commentmetadata {
+    font: 10px/12px Arial;
+    color: #6f6f6f;
+    margin: 10px 0;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.navigation, .navigation a {
+    padding-bottom: 40px;
+    border-bottom: none;
+}
+
+.staff-member img {
+    margin: 0 1em 1em 0;
+}
+
+/**************** In the Footer ****************/
+
+#footer p {
+}
+
+#footer a {
+}
+
+#footer a:hover {
+}
